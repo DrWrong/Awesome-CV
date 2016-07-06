@@ -47,26 +47,31 @@
 \renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
 
 
-%-------------------------------------------------------------------------------
+% \renewcommand{\familydefault}{\sfdefault}
+\usepackage{fontspec}
+\usepackage{xunicode}
+\usepackage{xeCJK}
+
+
+% -------------------------------------------------------------------------------
 %	PERSONAL INFORMATION
 %	Comment any of the lines below if they are not required
 %-------------------------------------------------------------------------------
-\name{Claud D.}{Park}
-\position{Software Engineer{\enskip\cdotp\enskip}Security Expert}
-\address{246-1002, Gwangmyeongmayrouge Apt. 86, Cheongna lime-ro, Seo-gu, Incheon-si, 404-180, Rep. of KOREA}
+\name{程宇航}{}
+\position{服务端研发工程师}
+\address{北京市朝阳区立水桥顶秀青溪小区1号楼1单元801, 100192}
 
-\mobile{(+82) 10-9030-1843} 
-\email{posquit0.bj@gmail.com}
-\homepage{www.posquit0.com}
-\github{posquit0}
-\linkedin{posquit0}
+\mobile{(+86) 180-1010-5606} 
+\email{yuhangchaney@gmail.com}
+\github{DrWrong}
+\linkedin{yuhang-cheng-a08597110}
 % \stackoverflow{SO-id}{SO-name}
 % \twitter{@twit}
 % \skype{skype-id}
 % \reddit{reddit-id}
 % \extrainfo{extra informations}
 
-\quote{``Must be the change that you want to see in the world."}
+\quote{``Coding For Fun and make the word become better"}
 
 
 %-------------------------------------------------------------------------------
@@ -79,22 +84,23 @@
 % Leave any of these blank if they are not needed
 \makecvfooter
   {\today}
-  {Claud D. Park~~~·~~~Curriculum Vitae}
+  {程宇航~~~·~~~个人简历}
   {\thepage}
 
 
 %-------------------------------------------------------------------------------
 %	CV/RESUME CONTENT
 %	Each section is imported separately, open each file in turn to modify content
-%-------------------------------------------------------------------------------
+% -------------------------------------------------------------------------------
+\input{cv/summary.tex}
 \input{cv/education.tex}
 \input{cv/skills.tex}
 \input{cv/experience.tex}
 \input{cv/extracurricular.tex}
-\input{cv/honors.tex}
-\input{cv/presentation.tex}
-\input{cv/writing.tex}
-\input{cv/committees.tex}
+% \input{cv/honors.tex}
+% \input{cv/presentation.tex}
+% \input{cv/writing.tex}
+% \input{cv/committees.tex}
 
 
 %-------------------------------------------------------------------------------
